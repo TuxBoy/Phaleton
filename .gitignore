@@ -1,0 +1,40 @@
+### Linux ###
+
+# General
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+### macOS ###
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### IntelliJ ###
+.idea/
+
+### Composer ###
+
+# General
+composer.phar
+/vendor/
+
+### Phalcon ###
+
+# General
+.phalcon/
+/cache/
+
+### App ###
+
+# General
+.env
