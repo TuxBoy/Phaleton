@@ -10,6 +10,6 @@ return [
 	'db'             => \App\ServiceProvider\DbConnectionServiceProvider::class,
 	'modelsMetadata' => \App\ServiceProvider\MetaDataServiceProvider::class,
 	'flash'          => \App\ServiceProvider\FlashServiceProvider::class,
-	'session'        => \App\ServiceProvider\SessionServiceProvider::class
+	'session'        => \App\ServiceProvider\SessionServiceProvider::class,
 
 ];
